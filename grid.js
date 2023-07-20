@@ -64,7 +64,7 @@ function initializeMasonry() {
 const base = "app1Z4C0dO7ufbxUS";
 const table = "tblGBDKi3iFTW5GT2";
 const apiKey = "patKNF8F1xv6adKyZ.7a5269c2c65164ef8233b6e7c3b3d9f977ae7e9e7c65182d87827db1ead9fa12";
-const desiredFields = "Work,";
+const desiredFields = "Work,Notes";
 
 // Fetch Airtable schema to get fields information
 const metaUrl = `https://api.airtable.com/v0/meta/bases/${base}/tables`;
